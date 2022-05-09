@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F5F5FA;
+
+}
+
+.title{
+    color: #FFFCFC;;
+    font-weight: 400;
+    font-size: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px;
+    background: linear-gradient(122.59deg, #E5BD57 0%, #D53B3B 69.5%);
+}
+
+.title-text{
+    max-width: 100px;
+    text-align: center;
+}
+
+main{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.box-main{
+    width: 75%;
+    margin-top: 10%;
+    background: linear-gradient(114.31deg, #E59357 0%, #D54E3B 79.06%);
+    box-shadow: 4px 4px 20px 1px rgba(224, 9, 9, 0.25);
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.box-main img{
+    width: 35px;
+    height: 35px;
+}
+
+@media only screen and (max-width: 600px) {
+    .box-main{
+        height: 140px;
+    }
+}
+
+.box-main-2{
+    width: 85%;
+    height: 100%;
+    background: linear-gradient(114.31deg, #E59357 0%, #D54E3B 79.06%);
+    box-shadow: 4px 4px 20px 1px rgba(224, 9, 9, 0.25);
+    border-radius: 20px;
+    padding: 15px;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0.11em;
+    color: white;
+    position: relative;
+    z-index: -5;
+}
+
+.row{
+    display: flex;
+
+}
+
+.row-1{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.coracao{
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-80%, -50%);
+}
+
+.bg{
+    position: absolute;
+    bottom: -6%;
+    right: -10%;
+    z-index: -2;
+}
+
+footer{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.footer-1{
+    display: flex;
+}
+
+.footer-opc{
+    width: 65px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    background: linear-gradient(114.31deg, rgba(229, 147, 87, 0.07) 0%, rgba(213, 78, 59, 0.07) 79.06%);
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.footer-center{
+    box-sizing: content-box;
+    width: 65px;
+    height: 65px;
+    background: linear-gradient(114.31deg, #E59357 0%, #D54E3B 79.06%);
+    position: absolute;
+    top: -30%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    border-radius: 50%;
+    border: 10px solid white;
+}
